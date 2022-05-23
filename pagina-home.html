@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Home - Recados</title>
+</head>
+
+<body>
+    <h1 class="home">Meus Recados</h1>
+    <hr>
+    <main>
+        <div class="home">
+            <form>
+
+                <input class="home" type="text" id="inputDescricao" placeholder="Descrição">
+
+                <input class="home2" type="text" id="inputDetalhamento" placeholder="Detalhamento">
+
+                <input type="submit" class="salvar" id="salvarRegistro" value="Salvar">
+            </form>
+
+            <div class="tabela">
+                <table>
+                    <!--Linha do cabeçalho, contem os títulos das colunas-->
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Descrição</th>
+                            <th>Detalhamento</th>
+                            <th>Ações:</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>ID do registro</td>
+                            <td>Exemplo Descrição</td>
+                            <td>Exemplo Detalhamento</td>
+                            <td><button class="editar">Editar</button>
+                                <button class="apagar">Apagar</button>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+
+
+    </main>
+    <script src="./JS/pagina-home.js"></script>
+</body>
+
+</html>

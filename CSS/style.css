@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex; /*quando tem dois itens isso faz com que fique um do lado do outro*/
+}
+
+
+section.leftcolum {
+  width: 40vw;
+  height: 100vh;
+  /* margin: 3px; */
+  background-image: url(./Image/pexels-josh-hild-8185253.jpg);
+}
+
+section.rigthcolum {
+  width: 60vw;
+  /* margin: 3px; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+div.home{
+  display: inline-block;
+  margin-top: 0px;
+}
+
+
+form {
+  display: inline-block;
+  align-items: center; 
+  justify-content: center;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  font-size: large;
+  margin-bottom: 25px;
+}
+
+input.cadastro {
+  width: 500px;
+  height: 40px;
+  font-size: large;
+  margin-bottom: 30px;
+}
+
+input.btnCadastro {
+  display: block;
+  width: 500px;
+  height: 50px;
+  margin-bottom: 25px;
+  font-size: medium;
+}
+
+hr{
+  margin-bottom: 30px;
+}
+
+input.home { 
+  width: 500px;
+  height: 30px;
+  font-size: large;
+  margin-top: 0px;
+  margin-left: 80px;
+  display: inline-block;
+}
+
+input.home2 { 
+  width: 500px;
+  height: 30px;
+  font-size: large;
+  margin-top: 0px;
+  margin-left: 0px;
+  display: inline-block;
+}
+
+label.cadastro {
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label.login {
+  display: inline-block;
+}
+
+
+button {
+  display: block;
+  width: 500px;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+button.apagar{
+  display: inline-block;
+  width: 70px;
+  height: 34px;
+  background-color:rgba(255, 46, 46, 0.852);;
+}
+
+button.editar{
+  display: inline-block;
+  width: 70px;
+  height: 34px;
+  border-radius: 45%;
+
+}
+
+button:hover {
+  background-color: rgb(2, 2, 96);
+  color: white;
+}
+
+button.criarContaLogin {
+  display: block;
+  width: 500px;
+  height: 50px;
+  margin-bottom: 25px;
+  font-size: large;
+ 
+}
+
+input {
+  display: block;
+  width: 500px;
+  height: 50px;
+  margin-bottom: 25px;
+} 
+
+input.btnEntrar{
+  display: block;
+  width: 500px;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+input.salvar {  
+  display: inline-block;
+  width: 70px;
+  height: 34px;
+}
+
+input.btnEntrar:hover{
+
+background-color: rgb(2, 2, 96);
+color: white;
+}
+
+input.btnCadastro:hover {
+  background-color: rgba(46, 255, 255, 0.852);
+  color: black;
+}
+
+input.salvar:hover{
+  background-color: mediumslateblue;
+  color: white;
+}
+
+button.apagar:hover{
+  background-color:  red;
+  color: white;
+  border-radius: 0%;
+}
+
+button.editar:hover{
+  background-color: rgba(46, 255, 255, 0.852);
+  color: black;
+  border-radius: 0%;
+}
+
+h1 {
+  margin-bottom: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  color: blueviolet;
+}
+
+h1.cadastro {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+  color: blueviolet;
+  margin-bottom: 50px;
+}
+
+h1.home {
+  margin-bottom: 8px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+table {
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  border-collapse: collapse;
+  width: 1000px;
+  margin-left: 70px;
+}
+
+ tr, th{
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+  width: 200px;
+  height: 100px;
+  border-collapse: collapse;
+  text-align: center;
+}
